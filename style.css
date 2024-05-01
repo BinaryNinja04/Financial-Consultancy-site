@@ -21,17 +21,41 @@ header {
     align-items: center;
 }
 
+.e:hover{
+    background-color:rgb(123, 72, 150);
+}
+
+.button12{
+    display: inline-block;
+            padding: 10px 0px;
+            background-color:rgb(45, 8, 65); /* Button color (blue) */
+            color: white; /* Text color */
+            text-align: center;
+            text-decoration: none; /* Remove underline */
+            border-radius: 10px; /* Rounded corners */
+            border-width: 7px; /* No border */
+            border-color: white;
+            cursor: pointer;
+            transition: background-color 0.3s; /* Transition effect */
+}
+
+.button12:hover {
+    background-color:rgb(123, 72, 150); /* Darker blue on hover */
+}
+
 .footer{
     display: flex;
     padding: 20vb;
+    padding-bottom: 12vb;
     padding-top: 5vh;
     background-color: rgb(45, 8, 65);
     color: white;
+    gap: 45px;
 }
 
 .call{
     display:flex;
-    
+
 }
 
 .footer img{
@@ -44,11 +68,32 @@ header {
     opacity: 0.5;
 }
 
+.exp:hover{
+    opacity: 1;
+    
+}
+
+.card-body2{
+    transition-duration: 400ms;
+}
+
+.card-body2:hover{
+    background-image: url('C:/Users/Pranav Shrivastava/OneDrive/Desktop/intern/task/joanna-kosinska-129039-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
 .card-body3{
     background-image: url('C:/Users/Pranav Shrivastava/OneDrive/Desktop/intern/task/joanna-kosinska-129039-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.5;
+    transition-duration: 450ms;
+}
+
+.card-body3:hover{
+    opacity: 1;
 }
 
 .social-media-icons{
@@ -173,9 +218,9 @@ header {
     background-color: #8e25c3;
 }
 
-ul {
-    list-style-type: none; /* Removes bullet points or numbers */
-}
+/*ul {
+    list-style-type: none; Removes bullet points or numbers 
+}*/
 
 .logo img {
     max-width: 50px;
@@ -212,10 +257,7 @@ nav ul li a {
 }
 
 .hero {
-    padding-right: 2px;
-    padding-left: 2px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+   padding:2px
     background-color: #e9e9e9;
 }
 
