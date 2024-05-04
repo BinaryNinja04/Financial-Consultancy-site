@@ -64,7 +64,7 @@ header {
 }
 
 .exp{
-    background-image: url('C:/Users/Pranav Shrivastava/OneDrive/Desktop/intern/task/Mountain_Range_Banner.jpg');
+    background-image: url('images/Mountain_Range_Banner.jpg');
     opacity: 0.5;
 }
 
@@ -78,14 +78,14 @@ header {
 }
 
 .card-body2:hover{
-    background-image: url('C:/Users/Pranav Shrivastava/OneDrive/Desktop/intern/task/joanna-kosinska-129039-unsplash.jpg');
+    background-image: url('images/joanna-kosinska-129039-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
 
 .card-body3{
-    background-image: url('C:/Users/Pranav Shrivastava/OneDrive/Desktop/intern/task/joanna-kosinska-129039-unsplash.jpg');
+    background-image: url('images/joanna-kosinska-129039-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.5;
@@ -135,7 +135,7 @@ header {
 }
 
 .back{
-    background-image: url('C:/Users/Pranav Shrivastava/OneDrive/Desktop/intern/task/relaxed-black-man-resting-sitting-chair-over-gray-background-holding-hands-behind-head-enjoying-lazy-weekend-posing-wall-218997618.webp');
+    background-image: url('images/relaxed-black-man-resting-sitting-chair-over-gray-background-holding-hands-behind-head-enjoying-lazy-weekend-posing-wall-218997618.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover ;
